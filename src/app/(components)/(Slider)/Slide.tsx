@@ -16,10 +16,16 @@ const Slide: FC<SlideType> = ({ url, text }) => {
         />
       </div>
 
-      <div className="flex flex-col gap-3 absolute top-0 left-0">
-        <Link className="bg-white py-1 px-2 rounded-sm text-[12px]" href="">
-          @_DR.MAMAEVA_N.D_
-        </Link>
+      <div className="z-20 flex flex-col gap-3 max-w-[50%] absolute bottom-5 left-5">
+        <div>
+          <Link
+            className="bg-white py-1 px-2 rounded-[5px] text-[12px]"
+            href=""
+          >
+            @_DR.MAMAEVA_N.D_
+          </Link>
+        </div>
+        <h2 className=" text-white">Подтяжка лица, шеи. Липофилинг лица.</h2>
       </div>
     </div>
   );
