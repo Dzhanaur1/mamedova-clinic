@@ -17,12 +17,12 @@ const Hero = () => {
             пациентом, будем подбирать наиболее оптимальный вариант решения
             поставленных задач.
           </p>
-          <div>
+          <Link href="/#contacts">
             <Button
               className="py-[10px] px-[30px]  transition-all duration-[250ms] hover:text-[#fff] hover:bg-biege_600 bg-white md:py-[15px] md:px-[45px] rounded-[10px]  text-black font-bold"
               text="Заказать консультацию"
             />
-          </div>
+          </Link>
         </div>
       </div>
     </div>

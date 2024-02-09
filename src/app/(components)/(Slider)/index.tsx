@@ -26,7 +26,10 @@ const Gallery = () => {
     },
   ];
   return (
-    <div className="container mt-[30px]  md:mt-[45px] lg:mt-[60px] flex flex-col">
+    <div
+      id="works"
+      className="container mt-[30px]  md:mt-[45px] lg:mt-[60px] flex flex-col"
+    >
       <h3 className="text-[#000] lg:text-[34px]  text-[28px]">Наши работы</h3>
       <Link href="#" className=" underline">
         Смотреть больше работ→

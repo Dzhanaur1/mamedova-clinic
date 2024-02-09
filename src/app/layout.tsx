@@ -21,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full">
-      <body className={`${inter.className} overflow-x-hidden bg-white h-full`}>
+      <body
+        className={`${inter.className} scroll-smooth overflow-x-hidden bg-white h-full`}
+      >
         <div className="flex flex-col h-full">
           <Header />
           <main className="flex-[1_0_auto]">{children}</main>

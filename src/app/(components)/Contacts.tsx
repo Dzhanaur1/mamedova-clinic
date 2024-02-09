@@ -30,7 +30,10 @@ const Contacts = () => {
   };
 
   return (
-    <div className=" my-[30px] py-4 mx-3 md:my-[50px] bg-biege_600 lg:w-[1200px] md:mx-auto lg:h-[300px] rounded-[20px] flex flex-col justify-center items-center">
+    <div
+      id="contacts"
+      className=" my-[30px] py-4 mx-3 md:my-[50px] bg-biege_600 lg:w-[1200px] md:mx-auto lg:h-[300px] rounded-[20px] flex flex-col justify-center items-center"
+    >
       <h1 className="font-bold text-[28px] md:text-4xl text-center text-white">
         Хотите заказать консультацию?
       </h1>

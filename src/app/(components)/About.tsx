@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-biege w-full  mt-[30px] md:mt-[50px]   overflow-hidden ">
+    <div
+      id="about"
+      className="bg-biege w-full  mt-[30px] md:mt-[50px]   overflow-hidden "
+    >
       <div className="container ">
         <div className="flex lg:gap-[110px] lg:h-[600px] flex-col lg:flex-row py-[20px]">
           <img

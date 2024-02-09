@@ -25,6 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+body {
+  scroll-behavior: smooth;
+}
 .prev.swiper-button-disabled,
 .next.swiper-button-disabled {
   background-color: #f9efdd; /* Прозрачность фона на 40% */

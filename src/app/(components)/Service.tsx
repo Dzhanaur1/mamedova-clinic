@@ -54,7 +54,7 @@ const Service = () => {
   ];
 
   return (
-    <div className="mx-auto max-w-[950px]">
+    <div id="service" className="mx-auto max-w-[950px]">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-10 lg:grid-cols-3 gap-[20px]">
         {services.map((obj) => (
           <div
