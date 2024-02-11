@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { sendTelegramNotification } from "../utils/sendTelegramNotification";
 
 const Contacts = () => {
   const [name, setName] = useState("");
@@ -12,22 +13,31 @@ const Contacts = () => {
       setError("Пожалуйста, заполните все поля формы.");
       return;
     }
-    sendToTelegram();
-    sendToWhatsApp();
+
+    // sendToWhatsApp();
     setName("");
     setPhone("");
     setError("");
   };
 
-  const sendToTelegram = () => {
-    // Здесь ваш код для отправки данных на Telegram
+  const sendToTelegram = async () => {
+    try {
+      // Отправка данных заказа в телеграм
+      await sendTelegramNotification({ name: name, phone: phone });
+
+      // Дополнительные действия по обработке заказа, если нужно
+
+      alert("Успешно отправлено");
+    } catch (error) {
+      alert("Ошибка отправки. Повторите попытку");
+    }
     console.log("Отправка на Telegram:", { name, phone });
   };
 
-  const sendToWhatsApp = () => {
-    // Здесь ваш код для отправки данных на WhatsApp
-    console.log("Отправка на WhatsApp:", { name, phone });
-  };
+  // const sendToWhatsApp = () => {
+  //   // Здесь ваш код для отправки данных на WhatsApp
+  //   console.log("Отправка на WhatsApp:", { name, phone });
+  // };
 
   return (
     <div
@@ -61,6 +71,7 @@ const Contacts = () => {
           />
           <button
             type="submit"
+            onClick={() => sendToTelegram()}
             className=" font-sans hover:translate-x-[3px] hover:bg-[] transition-all absolute top-1/2 translate-y-[-50%] rounded-full bg-biege_600 w-[34px] h-[34px] md:w-[44px] md:h-[44px] flex justify-center items-center right-[20px]"
           >
             <svg
