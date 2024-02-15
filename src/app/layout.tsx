@@ -22,6 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <meta name="yandex-verification" content="79268e3d0a192adf" />
+      <meta
+        name="google-site-verification"
+        content="QsMZXChaqLP9nyJy3SzS9qapRxa2XwjgxxLnmMkdrcI"
+      />
       <body
         className={`${inter.className} scroll-smooth overflow-x-hidden bg-white h-full`}
       >
