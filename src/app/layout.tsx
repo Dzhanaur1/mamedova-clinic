@@ -21,6 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full">
+      <meta name="yandex-verification" content="39fe3a550f172b6b" />
       <body
         className={`${inter.className} scroll-smooth overflow-x-hidden bg-white h-full`}
       >

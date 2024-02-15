@@ -9,7 +9,7 @@ const About = () => {
       <div className="container ">
         <div className="flex lg:gap-[110px] lg:h-[600px] flex-col lg:flex-row py-[20px]">
           <img
-            src="/about.jpg"
+            src="/about.webp"
             className=" rounded-[10px] max-h-[450px] lg:max-h-none max-w-[443px] w-full object-cover"
             alt=""
           />

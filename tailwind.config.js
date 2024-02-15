@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        intro: "url('/intro.png')",
-        mb_intro: "url('/intro-mobile.png')",
+        intro: "url('/intro.webp')",
+        mb_intro: "url('/intro-mobile.webp')",
       },
       screens: {
         sm: "640px",

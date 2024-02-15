@@ -9,7 +9,7 @@ import Slide from "./Slide";
 const Gallery = () => {
   const slides = [
     {
-      url: "/gallery/image.png",
+      url: "/gallery/gallery_1.png",
       text: "Подтяжка лица, шеи. Липофилинг лица.",
     },
     {
@@ -39,7 +39,6 @@ const Gallery = () => {
           modules={[Navigation]}
           spaceBetween={15} // Отступ между слайдами
           slidesPerView={1.15}
-          autoHeight={true}
           breakpoints={{
             640: {
               slidesPerView: 2,

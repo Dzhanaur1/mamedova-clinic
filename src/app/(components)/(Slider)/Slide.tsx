@@ -11,7 +11,7 @@ const Slide: FC<SlideType> = ({ url, text }) => {
       <div className="rounded-[10px] flex h-full">
         <img
           src={url}
-          className=" w-full rounded-[10px]  h-auto  z-10"
+          className=" w-full object-cover rounded-[10px]  h-full  z-10"
           alt=""
         />
       </div>

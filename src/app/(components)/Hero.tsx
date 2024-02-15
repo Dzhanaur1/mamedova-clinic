@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="container h-full bg-black bg-opacity-15 md:bg-transparent">
         <div className="flex flex-col h-full justify-center lg:pt-0  max-w-[485px] gap-[20px] text-white">
           <h1 className="text-[40px] font-semibold leading-tight">
-            Пластический хирург в Дагестане
+            Пластический хирург
           </h1>
           <p>
             Каждый пациент уникален и каждому нужен индивидуальный подход,
