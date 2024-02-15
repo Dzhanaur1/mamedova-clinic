@@ -17,7 +17,7 @@ const PreLoader = () => {
     <div
       className={` ${
         isVisibleWrapper ? "" : " translate-y-[-100%]"
-      } transition-all duration-1000 z-50 flex flex-col justify-center items-center absolute top-0 left-0 h-full w-full bg-biege`}
+      } transition-all duration-1000 z-[999] flex flex-col justify-center items-center absolute top-0 left-0 h-full w-full bg-biege`}
     >
       <img
         src="icons/logo-preintro.svg"
