@@ -25,7 +25,7 @@ const Slide: FC<SlideType> = ({ url, text }) => {
             @_DR.MAMAEVA_N.D_
           </Link>
         </div>
-        <h2 className=" text-white">Подтяжка лица, шеи. Липофилинг лица.</h2>
+        <h2 className=" text-white">{text}</h2>
       </div>
     </div>
   );

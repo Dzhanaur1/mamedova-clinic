@@ -10,20 +10,20 @@ const Gallery = () => {
   const slides = [
     {
       url: "/gallery/gallery_1.png",
-      text: "Подтяжка лица, шеи. Липофилинг лица.",
+      text: "Хейлопластика. Коррекции формы и объема губ.",
     },
     {
-      url: "/gallery/image-1.png",
-      text: "Подтяжка лица, шеи. Липофилинг лица.",
+      url: "/gallery/gallery_2.png",
+      text: "Блефаропластика.",
     },
     {
-      url: "/gallery/image-2.png",
+      url: "/gallery/gallery_3.png",
       text: "Подтяжка лица, шеи. Липофилинг лица.",
     },
-    {
-      url: "/gallery/image-1.png",
-      text: "Подтяжка лица, шеи. Липофилинг лица.",
-    },
+    // {
+    //   url: "/gallery/image-1.png",
+    //   text: "Подтяжка лица, шеи. Липофилинг лица.",
+    // },
   ];
   return (
     <div
@@ -31,7 +31,10 @@ const Gallery = () => {
       className="container mt-[30px]  md:mt-[45px] lg:mt-[60px] flex flex-col"
     >
       <h3 className="text-[#000] lg:text-[34px]  text-[28px]">Наши работы</h3>
-      <Link href="#" className=" underline">
+      <Link
+        href="https://www.instagram.com/_dr.mamaeva_n.d_?igsh=MWI1cXVhMzF5anVxYQ=="
+        className=" underline"
+      >
         Смотреть больше работ→
       </Link>
       <div className="flex mt-4 w-full">

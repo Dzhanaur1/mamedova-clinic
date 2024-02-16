@@ -17,10 +17,10 @@ const Footer = () => {
           </h3>
           <p className=" text-[13px] text-center text-black font-light">
             {" "}
-            Пластический хирург в Дагестане
+            Пластический хирург Мамаева Наида
           </p>
           <div className="flex gap-2 mt-5">
-            <Link href="">
+            <Link href="https://www.instagram.com/_dr.mamaeva_n.d_?igsh=MWI1cXVhMzF5anVxYQ==">
               <svg
                 width="20"
                 height="22"
@@ -38,7 +38,7 @@ const Footer = () => {
                 />
               </svg>
             </Link>
-            <Link href="">
+            <Link href="https://www.instagram.com/_dr.mamaeva_n.d_?igsh=MWI1cXVhMzF5anVxYQ==">
               <svg
                 width="20"
                 height="22"
@@ -56,7 +56,7 @@ const Footer = () => {
                 />
               </svg>
             </Link>
-            <Link href="">
+            <Link href="https://www.instagram.com/_dr.mamaeva_n.d_?igsh=MWI1cXVhMzF5anVxYQ==">
               <svg
                 width="20"
                 height="22"

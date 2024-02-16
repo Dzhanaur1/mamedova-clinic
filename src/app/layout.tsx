@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Footer from "./(components)/Footer";
 import Header from "./(components)/Header";
 import "./globals.css";
@@ -8,10 +9,18 @@ const inter = Cormorant_Unicase({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Пластический хирург Мамаева Наида Дагировна ",
   description:
     "Пластический хирург в Дагестане с большим стажем. Закажите консультацию. Выполняет таки виды работ как: Блефаропластика |  Хейлопластика  | Лифтинг линг | Маммопластика | Абдоминопластика | Липоскульптура",
+  keywords: [
+    "Мамаева Наида Дагировна",
+    "Пластический хирур",
+    "Пластический хирург в Дагестане",
+    "Липоскульптура",
+    "Маммопластика",
+    "Хейлопластика ",
+  ],
 };
 
 export default function RootLayout({
